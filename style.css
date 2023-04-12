@@ -2,21 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
 }
 
-.header {
-  width: 100%;
-  height: 70px;
+a {
+  text-decoration: none;
 }
 
-.header-top {
-  width: 100%;
-  height: 50px;
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto; /*一番上でmargin 0 を設定してるのにここでこれうちなおすのはなぜ？*/
+  text-align: center;
 }
 
-.header-bottom {
-  width: 100%;
-  height: 100px;
+header .heading {
+  font-size: 32px;
+  text-align: center;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .main-visual {
@@ -51,7 +65,14 @@
   height: 600px;
 }
 
-.footer {
+footer {
   width: 100%;
   height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
